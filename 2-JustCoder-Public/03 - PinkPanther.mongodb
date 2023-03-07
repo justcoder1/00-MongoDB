@@ -1,0 +1,14 @@
+use('JC-Sites-Personal');
+
+// ***Read/Find*** can use findOne or find
+db.pinkpantherappendixs.find().sort({ "_id": -1 })//.count()
+// db.pinkpantherpictures.find().sort({ "_id": -1 })//.count()
+// db.pinkpanthervideos.find().sort({ "_id": -1 })//.count()
+// db.pinkpantherusers.find().sort({ "_id": -1 })//.count()
+
+// Update to remove the field 'id'
+// db.PinkPantherAppendix.updateMany(
+//   {_id: {$ne: 0}},
+//    { $unset: { id: ""} }
+// )
+
